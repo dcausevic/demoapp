@@ -20,6 +20,7 @@
      <tt>shell> cd demoapp</tt>
 
   3. Initialize database
-  
+
      <tt>rake db:create</tt>
+     
      <tt>rake db:migrate</tt>
