@@ -11,12 +11,14 @@
 
   Sqlite version 3.8.6+
 
-* <b>Set up instructions</b>
+* Set up instructions
 
   1. Unpack the project files
+
   2. Go into directory
 
      <tt>shell> cd demoapp</tt>
+
   3. Initialize database
 
      <tt>shell> rake db:create</tt>
