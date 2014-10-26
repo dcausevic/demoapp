@@ -1,13 +1,11 @@
 == README
 
 
-* Ruby version
-  1.9.3+
+* System requirements
 
-* Rails version
-  4.1+
+  [Ruby]	version 1.9.3+
+  [Rails]	version 4.1+
 
-* System dependencies
 
 * Configuration
 
