@@ -6,7 +6,7 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
 * Ruby version 1.9.3+
 
-* Rails version 4.1+l
+* Rails version 4.1+
 
 * Bundler version 1.7.2+
 
@@ -17,7 +17,7 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
 * on Windows and Mac OS
 
-  Use RailsInstaller from railsinstaller.org
+  Use RailsInstaller from http://railsinstaller.org
   
 
 ==== Set up instructions
