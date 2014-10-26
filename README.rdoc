@@ -1,5 +1,7 @@
 == README
 
+This is demo application using AngularJS with Coffeescript within Rails environment
+
 
 * <b>System requirements</b>
 
@@ -15,7 +17,7 @@
 
   This is first paragraph
 
-  1. Unpack the project files
+  1. Unpacking the project will create new demoapp directory
 
   2. Go into directory
 
@@ -26,3 +28,5 @@
      <tt>shell> rake db:create</tt>
 
      <tt>shell> rake db:migrate</tt>
+
+* <b>Run the application</b>
