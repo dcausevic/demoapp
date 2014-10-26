@@ -2,34 +2,47 @@
 
 This is demo application using AngularJS and Coffeescript within Rails environment
 
-=== System requirements
+==== System requirements
 
 * Ruby version 1.9.3+
 
-* Rails version 4.1+
+* Rails version 4.1+l
 
-* Database
+* Bundler version 1.7.2+
 
-  Sqlite version 3.8.6+
+* Sqlite3 (embedded database) version 3.8.6+
 
-* <b>Set up instructions</b>
 
-  	1. Unpacking the project will create new <tt>demoapp</tt> directory
+==== Environment installation
 
-  	2. Go into directory
+* on Windows and Mac OS
 
-  		<tt>shell> cd demoapp</tt>
+  Use RailsInstaller from railsinstaller.org
+  
 
-  	3. Initialize database
+==== Set up instructions
 
-  		<tt>shell> rake db:create</tt>
+* Unpacking the project will create new <tt>demoapp</tt> directory
 
-  		<tt>shell> rake db:migrate</tt>
+* Go into directory
 
-* <b>Run the application</b>
+  <tt>shell> cd demoapp</tt>
 
-  	1. Start the application
+* Initialize database
 
-  		<tt>shell> rails server</tt>
+  <tt>shell> rake db:create</tt>
 
-  	2. In your browser, go to http://localhost:3000
+  <tt>shell> rake db:migrate</tt>
+
+* Install gems
+
+  <tt>shell> bundle install</tt>
+
+
+==== Run the application
+
+* Start the application
+
+  <tt>shell> rails server</tt>
+
+* In your browser, go to http://localhost:3000
