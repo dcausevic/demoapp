@@ -1,6 +1,6 @@
 == README
 
-This is demo application using AngularJS with Coffeescript within Rails environment
+This is demo application using AngularJS and Coffeescript within Rails environment
 
 
 * <b>System requirements</b>
@@ -17,13 +17,13 @@ This is demo application using AngularJS with Coffeescript within Rails environm
 
   This is first paragraph
 
-  1. Unpacking the project will create new demoapp directory
+  	1. Unpacking the project will create new demoapp directory
 
-  2. Go into directory
+  	2. Go into directory
 
      <tt>shell> cd demoapp</tt>
 
-  3. Initialize database
+  	3. Initialize database
 
      <tt>shell> rake db:create</tt>
 
