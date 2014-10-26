@@ -11,7 +11,9 @@
 
   Sqlite version 3.8.6+
 
-* Set up instructions
+* <b>Set up instructions</b>
+
+  This is first paragraph
 
   1. Unpack the project files
 
