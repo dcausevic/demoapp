@@ -19,12 +19,12 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
   	2. Go into directory
 
-  		<tt>shell> cd demoapp</tt>
+  		 <tt>shell> cd demoapp</tt>
 
   	3. Initialize database
 
-  		<tt>shell> rake db:create</tt>
+  		 <tt>shell> rake db:create</tt>
 
-  		<tt>shell> rake db:migrate</tt>
+  		 <tt>shell> rake db:migrate</tt>
 
 * <b>Run the application</b>
