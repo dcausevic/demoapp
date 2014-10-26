@@ -29,7 +29,7 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
 * <b>Run the application</b>
 
-	1. Start the application
+  	1. Start the application
 		<tt>shell> rails server</tt>
-		
-	2. In your browser, go to {demoapp}[http://localhost:3000]
+
+  	2. In your browser, go to {demoapp}[http://localhost:3000]
