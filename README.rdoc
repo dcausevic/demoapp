@@ -3,13 +3,13 @@
 This is demo application using AngularJS and Coffeescript within Rails environment
 
 
-* <b>System requirements</b>
+=== System requirements
 
-  Ruby version 1.9.3+
+* Ruby version 1.9.3+
 
-  Rails version 4.1+
+* Rails version 4.1+
 
-* <b>Database</b>
+* Database
 
   Sqlite version 3.8.6+
 
