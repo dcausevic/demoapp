@@ -9,13 +9,17 @@
 
 * <b>Database</b>
 
-  Sqlite version 3.8.6
+  Sqlite version 3.8.6+
 
 * <b>Set up instructions</b>
 
   1. Unpack the project files
+
   2. Go into directory
+
      <tt>shell> cd demoapp</tt>
+
   3. Initialize database
+  
      <tt>rake db:create</tt>
      <tt>rake db:migrate</tt>
