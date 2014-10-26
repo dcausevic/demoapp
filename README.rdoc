@@ -28,3 +28,7 @@ This is demo application using AngularJS and Coffeescript within Rails environme
   		<tt>shell> rake db:migrate</tt>
 
 * <b>Run the application</b>
+
+	1. Start the application
+		<tt>shell> rails server</tt>
+	2. In your browser, go to {demoapp}[http://localhost:3000]
