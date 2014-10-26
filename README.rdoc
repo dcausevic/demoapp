@@ -2,7 +2,6 @@
 
 This is demo application using AngularJS and Coffeescript within Rails environment
 
-
 === System requirements
 
 * Ruby version 1.9.3+
