@@ -12,8 +12,13 @@
 //
 //= require jquery
 //= require jquery_ujs
+
+// Add AngularJS with extensions
 //= require angular.min
 //= require angular-route.min
 //= require angular-rails-templates
+
+// Add HTML view templates 
 //= require_tree ../templates
+
 //= require_tree .
