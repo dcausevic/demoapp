@@ -40,3 +40,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin]
 
 # Use Angular Rails Templates for HTML templates
 gem 'angular-rails-templates'
+
+# Use Slim templates generator
+gem 'slim-rails'
