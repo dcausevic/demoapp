@@ -34,6 +34,8 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
   <tt>shell> rake db:migrate</tt>
 
+  <tt>shell> rake db:seed</tt>
+
 * Install gems
 
   <tt>shell> bundle install</tt>
