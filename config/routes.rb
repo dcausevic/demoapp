@@ -2,8 +2,10 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
-  # You can have the root of your site routed with "root"
-  # root 'welcome#index'
+  # All incoming requests are sent to index file and lets angular handle routing.
+  # Second line prevents Rails confusing client side route with request to resource
+  root 'application#index'
+  get '*path' => 'application#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
