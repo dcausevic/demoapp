@@ -3,9 +3,7 @@ Rails.application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # All incoming requests are sent to index file and lets angular handle routing.
-  # Second line prevents Rails confusing client side route with request to resource
   root 'application#index'
-  get '*path' => 'application#index'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
@@ -55,4 +53,10 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+  # This is where we define our API routes
+  namespace :api, defaults: {format: :json} do
+    resources :people, only: [:index, :create]
+  end
+
 end
