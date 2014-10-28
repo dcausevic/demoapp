@@ -2,8 +2,22 @@
 	This is HTNL template for Page 2
 
 
-h1 Address Book fetched from the database by Rails API
+h1 Page 2: Address Book fetched from the database by Rails API
 
-ul
-    li ng-repeat="person in people"
-        | {{person.id}} {{person.name}} {{person.address}} {{person.created_at}}
+table class="table"
+	thead
+		tr
+			th #
+			th Name
+			th Address
+			th Created at
+	tbody
+		tr ng-repeat="person in people"
+			td 
+				| {{person.id}}
+			td
+				| {{person.name}}
+			td
+				| {{person.address}}
+			td
+				| {{person.created_at}}

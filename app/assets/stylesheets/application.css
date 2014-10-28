@@ -12,7 +12,12 @@
  *
  *= require_tree .
  *= require_self
+ *
+ * We use bootstrap library
  *= require bootstrap.min
+ * 
+ * Our custom style sheet file
+ *= require demoapp
  */
 
 
