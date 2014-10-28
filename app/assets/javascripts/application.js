@@ -16,6 +16,7 @@
 // Add AngularJS with extensions
 //= require angular.min
 //= require angular-route.min
+//= require angular-resource.min
 //= require angular-rails-templates
 
 // Add HTML view templates 

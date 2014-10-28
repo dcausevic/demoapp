@@ -7,7 +7,7 @@ class Api::PeopleController < ApplicationController
   end
 
   def create
-  	@person = Person.new(params[:person])
+  	@person = Person.new(person_params)
   	respond_to do |format|
   		if @person.save
   			format.json { render json: @person, status: :created }
@@ -15,5 +15,11 @@ class Api::PeopleController < ApplicationController
   			format.json { render json: @person.errors, status: :unprocessable_entity }
   		end
   	end
+  end
+
+  private
+
+  def person_params
+    params.require(:person).permit(:name, :address)
   end
 end
