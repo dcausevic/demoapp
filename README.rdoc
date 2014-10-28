@@ -22,7 +22,9 @@ This is demo application using AngularJS and Coffeescript within Rails environme
 
 ==== Set up instructions
 
-* Unpacking the project will create new <tt>demoapp</tt> directory
+* Get the project source to your local box. It will create new <tt>demoapp</tt> directory:
+
+  <tt>shell> git clone git@github.com:dcausevic/demoapp.git</tt>
 
 * Go into directory
 
