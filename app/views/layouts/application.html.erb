@@ -7,16 +7,17 @@
   <%= csrf_meta_tags %>
 </head>
 <body ng-app="addressbook">
-
 <!-- Bootstrapping/Preloading resources data for content page 1 -->
 <div ng-cloak preload-resource="<%= Person.all.to_json %>"></div>
 
+<!-- Navigation links on the top -->
 <ul class="nav nav-tabs" role="tablist">
 	<li><a href="#">Nav Item 1</a></li>
 	<li><a href="#/content2">Nav Item 2</a></li>
 	<li><a href="#/content3">Nav Item 3</a></li>
 </ul>
 
+<!-- Content area -->
 <%= yield %>
 
 </body>
