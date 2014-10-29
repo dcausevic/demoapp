@@ -1,9 +1,24 @@
 /!
-	This is HTNL template for Page 1
+	This is HTML template for Page 1
 
 
-h1 The Home View!
+h3 Content Area 1: Address Book model bootstrapped/preloaded on application initialization
 
-ul
-    li ng-repeat="thing in things"
-        | {{thing}}
+/! Person addresses are displayed in table format
+table class="table"
+	thead
+		tr
+			th #
+			th Name
+			th Address
+			th Created at
+	tbody
+		tr ng-repeat="person in people"
+			td 
+				| {{person.id}}
+			td
+				| {{person.name}}
+			td
+				| {{person.address}}
+			td
+				| {{person.created_at}}

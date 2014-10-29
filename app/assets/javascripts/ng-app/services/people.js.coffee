@@ -4,8 +4,7 @@
 # @name addressbook.PeopleService 
 # @description 
 # Factory in the addressbook for accessing API.
-angular.module('addressbook') 
-  .factory 'PeopleService', ($resource) ->
+@addressbook.factory 'PeopleService', ($resource) ->
     class PeopleService 
       constructor: () ->
         @service = $resource('http://localhost:3000/api/people/:id.json', {id: '@id'}) 
