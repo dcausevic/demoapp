@@ -7,6 +7,8 @@
   <%= csrf_meta_tags %>
 </head>
 <body ng-app="addressbook">
+
+<!-- Bootstrapping/Preloading resources data for content page 1 -->
 <div ng-cloak preload-resource="<%= Person.all.to_json %>"></div>
 
 <%= yield %>

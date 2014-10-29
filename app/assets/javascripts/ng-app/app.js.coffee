@@ -15,16 +15,16 @@
 @addressbook.config(['$routeProvider', ($routeProvider) ->
   $routeProvider.
     when('/', {
-      templateUrl: 'page1.html',
-      controller: 'Page1Ctrl'
+      templateUrl: 'content1.html',
+      controller: 'Content1Ctrl'
     }).
     when('/page2', {
-      templateUrl: 'page2.html',
-      controller: 'Page2Ctrl'
+      templateUrl: 'content2.html',
+      controller: 'Content2Ctrl'
     }).
     when('/page3', {
-      templateUrl: 'page3.html',
-      controller: 'Page3Ctrl'
+      templateUrl: 'content3.html',
+      controller: 'Contentcd3Ctrl'
     }).
     otherwise({
       redirectTo: '/'
