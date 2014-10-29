@@ -18,13 +18,13 @@
       templateUrl: 'content1.html',
       controller: 'Content1Ctrl'
     }).
-    when('/page2', {
+    when('/content2', {
       templateUrl: 'content2.html',
       controller: 'Content2Ctrl'
     }).
-    when('/page3', {
+    when('/content3', {
       templateUrl: 'content3.html',
-      controller: 'Contentcd3Ctrl'
+      controller: 'Content3Ctrl'
     }).
     otherwise({
       redirectTo: '/'

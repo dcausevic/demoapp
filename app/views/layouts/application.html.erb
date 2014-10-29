@@ -11,6 +11,12 @@
 <!-- Bootstrapping/Preloading resources data for content page 1 -->
 <div ng-cloak preload-resource="<%= Person.all.to_json %>"></div>
 
+<ul class="nav nav-tabs" role="tablist">
+	<li><a href="#">Nav Item 1</a></li>
+	<li><a href="#/content2">Nav Item 2</a></li>
+	<li><a href="#/content3">Nav Item 3</a></li>
+</ul>
+
 <%= yield %>
 
 </body>
